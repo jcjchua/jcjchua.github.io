@@ -1,0 +1,456 @@
+body {	
+font-family: "Lato", "Helvetica Neue", "Maven Pro", "La Belle Aurore", Helvetica, Arial, sans-serif, cursive;
+margin: 0px;
+}
+
+/*DISCOUNT CONTAINER*/
+
+#discount-container {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    z-index: 100;
+}
+
+#background-overlay {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    opacity: 50%;
+}
+
+#discount-box {
+    width: 370px;
+    height: 300px;
+    background-color: white;
+    position: absolute;
+    top: calc(50% - (230px/ 2));
+    left: calc(50% - (350px / 2));
+    z-index: 100;
+}
+
+#discount-header {
+    font-family: La Belle Aurore;
+    padding: 20px 15px;
+    text-align: center;
+    font-weight: 100;
+    font-size: 30px;
+}
+
+#discount-content {
+    font-family: Maven Pro;
+    text-align: center;
+    margin: 10px;
+}
+
+#sbutton {
+    position: absolute;
+    background-color: black;
+    color: white;
+    margin-top: 30px;
+    padding: 10px 15px;
+    font-size: 12px;
+    font-weight: 700;
+    cursor: pointer;
+    left: 155px
+}
+
+
+/*Slide 1*/
+
+#navigation {
+    background-color: white;
+    width: 100%;
+    height: 50px;
+    display: inline-block;
+    z-index: 2;
+    position: fixed;
+}
+
+ul{
+    margin-left: 150px;
+}
+
+li {
+    font-family: Maven Pro;
+    display: inline-block;
+    padding-left: 20px;
+    font-weight: 700;
+    font-color: black;
+}
+
+a {
+    text-decoration: none !important;
+    color: black !important;
+}
+
+.hover{
+    font-size: 18px;
+    -webkit-transition: 0.5s;
+    -webkit-filter: grayscale(0.2);
+}
+
+
+#address {
+    font-family: Maven Pro;
+    float:right;
+    margin-right: 50px;
+    font-weight: 700;
+}
+
+.parallax {
+    position: fixed;
+    height: 750px;
+    width: 100%;
+    background-size: 100%;
+}
+
+#slide1bg {
+    background-size: 100% 100%;
+    width: 100%;
+    height: 730px;
+    position: relative;
+    z-index: 1;
+}
+
+.bottom {
+    position: relative;
+    top: 730px;
+    background: white;
+}
+
+
+#dogshadow {
+    position: relative;
+    margin-left: 30px;
+    margin-top: 30px;
+    z-index: 3;
+    width: 100px;
+    height: auto;
+}
+
+#leftcircle {
+    background: white;
+    position: fixed;
+    margin-left: -10px;
+    margin-top: -10px;
+    z-index: 2;
+    height: 170px;
+    width: 170px;
+    border-radius: 90px;
+}
+
+
+
+/*Slide 2*/
+
+
+#slide2bg {
+    background: white;
+    position: relative;
+    width: 100%;
+    height: 730px;
+    z-index: 1;
+}
+
+#aboutusright {
+    width: 40%;
+    height: 730px;
+    right: 100px;
+    top: 150px;
+    position: absolute;
+
+}
+
+#aboutusleft {
+    width: 45%;
+    height: 730px;
+    margin-right: auto;
+    padding-left: 70px;
+    position: absolute;
+}
+
+#circle1 {
+    position: absolute;
+    display: block;
+    position: absolute;
+    top: 80px;
+    left: 310;
+    width: 33%;
+    height: auto;
+}
+
+#circle2 {
+    position: absolute;
+    display: block;
+    position: absolute;
+    top: 265px;
+    left: 180px;
+    width: 28%;
+    height: auto;
+}
+
+#circle3 {
+    position: absolute;
+    display: block;
+    position: absolute;
+    top: 420px;
+    left: 330px;
+    width: 20%;
+    height: auto;
+}
+
+
+
+#header1 {
+    font-family: La Belle Aurore;
+    margin-left: 10%;
+}
+
+#aboutustext {
+    font-family: Maven Pro;
+    font-size: 14px;
+    padding: 5px;
+
+}
+
+#blackpawdown {
+    position: absolute;
+    bottom: 50px;
+    left: calc(50% - (74px / 2));
+    z-index: 10;
+}
+
+/*Slide 3*/
+
+#slidebg {
+    width: 100%;
+    height: 730px;
+}
+
+#slide3back {
+    background-size: 100% 100%;
+    width: 100%;
+    height: 730px;
+    position: absolute;
+    z-index: 1;
+}
+
+#safetyleft {
+    width: 50%;
+    height: 730px;
+    position: relative;
+    z-index: 2;
+
+}
+
+#safetytitle {
+    position: relative;
+    padding:;
+    z-index: 3;
+    margin-top: 150px;
+    margin-left: 150px;
+}
+
+#safetytext {
+    font-family: Maven Pro;
+    color: white;
+    font-size: 14px;
+    padding: 5px;
+    margin-left: 150px;
+}
+
+#safetyquote {
+    font-size: 10px;
+    font-family: Maven Pro;
+}
+
+#whitepawdown {
+    position: absolute;
+    margin-top: 600px;
+    left: calc(50% - (74px / 2));
+    z-index: 5;
+}
+
+/*Slide 4*/
+
+#slide4bg {
+    background: white;
+    width: 100%;
+    height: 700px;
+    z-index: 1;
+    position: relative;
+}
+
+#adoptright {
+    width: 40%;
+    height: 300px;
+    right: 100px;
+    top: 50px;
+    position: absolute;
+}
+
+#adopttitle {
+    z-index: 3;
+
+}
+
+#adopttext {
+    font-family: Maven Pro;
+    color: black;
+    font-size: 14px;
+    margin-top: -15px;
+    padding: 5px;
+}
+
+#adoptleft {
+    width: 50%;
+    left: 100px;
+    top: 150px;
+}
+
+h1 {
+    position: relative;
+    font-size: 15px;
+    color: black;
+}
+
+.banner { 
+    margin-top: 100px;
+    position: relative; 
+    overflow: auto; 
+    width: 400px;
+    min-height: 300px; 
+    left: -100px;
+}
+
+.banner li { 
+    list-style: none;
+    overflow: hidden;
+    width: 700px;
+    min-height: 300px;
+
+
+}
+
+.banner ul li { 
+    display: block;
+    float: left;
+    min-height: 300px; 
+}
+
+
+
+/*Slide 4*/
+
+#slide5bg {
+    background: white;
+    width: 100%;
+    margin-top: 100px;
+    height: 200px;
+    z-index: 1;
+}
+
+.contactshape {
+    border-bottom: 1px solid #fff;
+    width: 200px;
+    height: 50px;
+    color: #fff;
+    position: relative;
+    margin-top: -200px;
+    font-size: 35px;
+    padding: 10px;
+    text-align: center;
+    left: calc(50% - (200px / 2));
+}
+
+#number {
+    margin-top: 5px;
+    color: white;
+    font-size: 17px;
+    font-family: Maven Pro;
+}
+
+
+#icons {
+    color: #fff;
+    margin-top: 15px;
+    text-align: center;
+}
+
+i {
+    padding-left: 15px;
+}
+
+/*CONTACT CONTAINER [NOT IN USE FOR NOW]*/
+
+
+#contact-container {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    z-index: 100;
+    display: none;
+}
+
+#contact-overlay {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    opacity: 50%;
+}
+
+#contact-box {
+    width: 370px;
+    height: 300px;
+    background-color: white;
+    position: absolute;
+    top: calc(50% - (230px/ 2));
+    left: calc(50% - (350px / 2));
+    z-index: 100;
+}
+
+#contact-header {
+    font-family: La Belle Aurore;
+    padding: 20px 15px;
+    text-align: center;
+    font-weight: 100;
+    font-size: 30px;
+}
+
+#contact-content {
+    font-family: Maven Pro;
+    text-align: center;
+    
+}
+
+#bbutton {
+    position: absolute;
+    background-color: black;
+    color: white;
+    margin-top: 30px;
+    padding: 10px 15px;
+    font-size: 12px;
+    font-weight: 700;
+    cursor: pointer;
+    left: 155px
+}
+
+
+.inbox {
+    border: 1px solid black;
+    background: transparent;
+    margin-left: 5px;
+    margin-bottom: 20px;
+    width: 300px;
+    height: 100px;
+    font-size: 12px;
+    font-weight: 700;
+    text-align: center;
+    color: black;
+}
+
+.inbox::-webkit-input-placeholder  {
+    color: black;
+    opacity: 0.6;
+}
